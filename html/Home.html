@@ -2,16 +2,141 @@
 <html lang="en">
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="C:\VSCodeWorkspace\PROJECT\css\Home.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\VSCodeWorkspace\PROJECT\css\Home.css">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <!-- <img src="C:\VSCodeWorkspace\PROJECT\img\ArtistiK_Artwork.png"> -->
-            <div class="nav-logo">
-                <div class="logo"></div>
+        <nav>
+            <a href="C:\VSCodeWorkspace\PROJECT\html\index.html">Index</a>
+            <a href="C:\VSCodeWorkspace\PROJECT\html\Commission.html">Commission</a>
+            <a href="C:\VSCodeWorkspace\PROJECT\html\Login.html">Login/SignUp</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\Project_sample\image\img1.png">
+                <div class="content">
+                    <div class="author">DIGITAL</div>
+                    <div class="title">ARBOREAL WHALE(BW)</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        This was created with the vision of combining two different elements of nature together.
+                    </div>
+                    <div class="buttons">
+                        <button>BUY</button>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\Project_sample\image\img2.png">
+                <div class="content">
+                    <div class="author">DIGITAL</div>
+                    <div class="title">ARBOREAL WHALE</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        This was created with the vision of combining two different elements of nature together.
+                    </div>
+                    <div class="buttons">
+                        <button>BUY</button>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\PROJECT\img\wp6814324-shiva-desktop-wallpapers.jpg">
+                <div class="content">
+                    <div class="author">TRADITIONAL</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>BUY</button>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\PROJECT\img\wp4176064-angry-lord-shiva-wallpapers (1).jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>BUY</button>
+                        <button>ADD TO CART</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\Project_sample\image\img1.png">
+                <div class="content">
+                    <div class="title">
+                        Arboreal Whale(BW)
+                    </div>
+                    <div class="description">
+                        Digital
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\Project_sample\image\img2.png">
+                <div class="content">
+                    <div class="title">
+                        Arboreal Whale
+                    </div>
+                    <div class="description">
+                        Digital
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\PROJECT\img\wp6814324-shiva-desktop-wallpapers.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="C:\VSCodeWorkspace\PROJECT\img\wp4176064-angry-lord-shiva-wallpapers (1).jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="C:\VSCodeWorkspace\PROJECT\JS\app.js"></script>
 </body>
 </html>
